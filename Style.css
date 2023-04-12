@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-column {
+    background-color: aquamarine;
+    flex: 1 65%;
+    flex-flow: row wrap;
+}
+
+/*eyes & mouth resizing*/
+div > #body  {
+    width: 100px;
+}
+
+/*glasses resizing*/
+div > #body1  {
+    width: 100px;
+} 
+
+/*hats*/
+div > #body2  {
+    width: 150px;
+} 
+
+/*pants resizing*/
+div > #body3  {
+    width: 220px;
+    height: 250px;
+} 
+
+/*hair resizing*/
+div > #body4 {
+    width:  150px;
+    height: 220px; 
+}
+
+/*shirt resizing*/
+div > #body5 {
+    width: 150px ;
+    height:100px;
+    
+}
+
+
+/*face-hair resizing*/
+div > #body6 {
+    width: 100px;
+    height:60px;
+}
+
+/*shoes*/
+div > #body7 {
+    width: 100px;
+    height:60px;
+}
+
+
+
+#right-column{
+    flex: 1 35%;
+}
+ div > #human{
+     margin-top: 100px;
+     margin-left: 150px;
+    width: 300px;
+}
+
+ div > #logo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     width: 180px;
+}
